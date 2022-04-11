@@ -1,0 +1,59 @@
+<html>
+    <link href= "C:\Users\zach1\OneDrive\Desktop\Bellevue\web-231\week-4\Assignment 4.2.css" type="text/css" rel="stylesheet" />
+
+
+
+<script>
+document.getElementById("const").innerHTML =
+Math.floor((Math.random() * 10) + 1);
+</script> <!--generate a random number between 1 and 10-->
+
+     
+<div id="container">
+    <h1 class="app-header"> Welcome to the numbers game!</h1>
+    <div id="card-example">
+        <div class="card">
+            <div class="card-title">Pick a number between 1 and 10</div>
+            <div class="card-content">
+                <form>
+                    <label for="txtMyNumber">Guess the number:</label><br>
+                    <input type="text" name="txtMyNumber" id="txtMyNumber"></form>
+                    <button type="button"onclick="document.getElementById('btnSubmit')">
+                    Submit</button>
+                    <p id="btnSubmit"></p> <!--take user input-->
+
+                    
+
+                    <script>
+                    function myFunction() {document.getElementById("const").value = document.getElementById("txtMyNumber").value;}</script>
+<script>
+document.getElementById("btnSubmit").onclick = function(){ // number guessed by user  
+
+    var x = document.getElementById("txtMyNumber").value;
+   
+    if(x == y)
+    {    
+        alert("Congratulations! You picked the correct number! "
+                + guess + " GUESS ");
+    }
+    else if(x > y) /* if guessed number is greater
+                    than actual number*/ 
+    {    
+        guess++;
+        alert("The number is less than <txtMyNumber>");
+    }
+    else
+    {
+        guess++;
+        alert("The number is less than <txtMyNumber>")
+    }
+ }
+ </script>
+            </div>
+
+
+        </div>
+    </div>
+</div>
+</html>
+    

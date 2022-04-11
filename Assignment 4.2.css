@@ -1,0 +1,31 @@
+#container{
+    padding: 10px;
+}
+.card{}
+#card-example{
+    width: 600px;
+    margin: 3% auto 0;
+}
+.card-title{}
+.card-content{}
+.card:hover{}
+.btn {} 
+.btn-primary {}
+.btn-primary:hover {}
+.input{}
+.full-width{}
+.form{}
+.form-field.{}
+
+
+/*
+============================================
+; Title: Assignment
+; Author: Professor Krasso
+; Date: 10 April 2022
+; Modified By: Zach Anderson
+; Description: This program demonstrates the
+; use of JavaScript types, values, and
+; and variables in an application.
+;===========================================
+*/
